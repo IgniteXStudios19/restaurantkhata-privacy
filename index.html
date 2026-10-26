@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Restaurant Sales &amp; Expenses</title>
+<meta name="description" content="Privacy policy for the Restaurant Sales &amp; Expenses Android app. Your business records stay on your phone.">
+<meta name="robots" content="index, follow">
+<style>
+  /* Self-contained on purpose: no web fonts, no CDN, no analytics. A privacy
+     policy that loads a third-party script to render itself is a bad joke, and
+     it also means this file works on any static host with nothing configured. */
+  :root {
+    --bg: #fffbf9;
+    --surface: #fdf2ee;
+    --ink: #221a17;
+    --muted: #5d4e49;
+    --brand: #b3441a;
+    --rule: #e8d5cd;
+    --maxw: 44rem;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #17110f;
+      --surface: #241a16;
+      --ink: #f3e9e5;
+      --muted: #c4b2ab;
+      --brand: #ef7c4c;
+      --rule: #3a2b25;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #17110f;
+    --surface: #241a16;
+    --ink: #f3e9e5;
+    --muted: #c4b2ab;
+    --brand: #ef7c4c;
+    --rule: #3a2b25;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 400 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  .wrap {
+    max-width: var(--maxw);
+    margin: 0 auto;
+    padding: 3rem 16px 5rem;
+  }
+
+  header { border-bottom: 2px solid var(--rule); padding-bottom: 1.5rem; margin-bottom: 2rem; }
+
+  h1 {
+    font-size: 1.85rem;
+    line-height: 1.25;
+    margin: 0 0 .5rem;
+    letter-spacing: -0.01em;
+  }
+  .app { color: var(--brand); font-weight: 600; }
+  .updated { color: var(--muted); font-size: .95rem; margin: 0; }
+
+  h2 {
+    font-size: 1.22rem;
+    margin: 2.4rem 0 .7rem;
+    letter-spacing: -0.005em;
+    scroll-margin-top: 1rem;
+  }
+
+  p, li { margin: 0 0 .9rem; }
+  ul { padding-left: 1.3rem; }
+  li { margin-bottom: .55rem; }
+
+  strong { font-weight: 650; }
+
+  a { color: var(--brand); text-decoration-thickness: 1px; text-underline-offset: 2px; word-break: break-word; }
+
+  .lede {
+    background: var(--surface);
+    border-left: 4px solid var(--brand);
+    border-radius: 0 10px 10px 0;
+    padding: 1.1rem 1.2rem;
+    margin: 0 0 2rem;
+  }
+  .lede p:last-child { margin-bottom: 0; }
+
+  .note {
+    background: var(--surface);
+    border-radius: 10px;
+    padding: 1rem 1.2rem;
+    margin: 1.2rem 0;
+  }
+  .note p:last-child { margin-bottom: 0; }
+
+  hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
+
+  footer {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--rule);
+    color: var(--muted);
+    font-size: .95rem;
+  }
+
+  /* The contact address. Given its own line and a little weight because it is
+     the one thing on this page a reader may actually need to act on. */
+  .contact {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: .2rem 0 1.2rem;
+  }
+
+  @media (max-width: 480px) {
+    body { font-size: 16px; }
+    .wrap { padding-top: 2rem; }
+    h1 { font-size: 1.55rem; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>Privacy Policy<br><span class="app">Restaurant Sales &amp; Expenses</span></h1>
+  <p class="updated">Last updated: 26 October 2026</p>
+</header>
+
+<div class="lede">
+  <p><strong>The short version.</strong> Your sales, expenses, menu, prices and
+  restaurant name stay <strong>on your phone</strong>. They are never sent to us.
+  We have no server, no account system, and no way to see your business records.</p>
+  <p>The app shows advertisements, and Google's advertising software does collect
+  some information about your device. That is described below, because it is the
+  one place data does leave your phone.</p>
+</div>
+
+<h2>What stays on your device</h2>
+
+<p>Everything you enter:</p>
+<ul>
+  <li>Sales, including items, quantities, prices, discounts and platform commission</li>
+  <li>Expenses, including vendors, amounts and categories</li>
+  <li>Your menu and its prices</li>
+  <li>Your restaurant's name and settings</li>
+  <li>Your app PIN, if you set one — stored only as a one-way cryptographic
+      verifier, so not even the app can recover it</li>
+</ul>
+
+<p>This is stored in the app's private storage on your phone.
+<strong>We never receive it.</strong> Uninstalling the app deletes it. If you
+want a copy, use Backup — see below.</p>
+
+<div class="note">
+  <p><strong>Android's own automatic cloud backup is switched off for this
+  app.</strong> Many Android apps are copied to the user's Google Drive
+  automatically in the background; this one is not, deliberately, because that
+  would send your business records off your phone without you asking. The only
+  copy that ever leaves this device is a backup or export <strong>you</strong>
+  create yourself.</p>
+</div>
+
+<h2>Diagnostics: crash reports and usage counts</h2>
+
+<p>If the app stops unexpectedly, it records technical details so the problem can
+be found: the error, your app version, your Android version, your device model,
+free memory, and a short list of which screens you had opened.</p>
+
+<p><strong>These reports stay on your phone.</strong> They are not uploaded to us
+or to anyone else.</p>
+
+<p>Before anything is recorded, it passes through a filter that removes business
+values — amounts, prices, item names, vendor names, your restaurant's name and
+your PIN. Usage counts record only <em>that</em> something happened, for example
+that a sale was saved, never what it was worth.</p>
+
+<p>Both can be turned off in <strong>Settings → Security → Diagnostics</strong>.
+If you turn them off, nothing is recorded at all.</p>
+
+<p>Separately, Google Play may collect crash reports from Android itself if you
+have opted into sharing diagnostics with Google on your device. That is a setting
+on your phone, not in this app, and you can change it in your Android settings.</p>
+
+<h2>Advertisements (Google AdMob)</h2>
+
+<p>The free version of the app shows advertisements supplied by Google AdMob.
+<strong>The Google Mobile Ads software collects and shares information
+automatically</strong>, and we cannot see or control what it collects. According
+to Google's own documentation, it collects and shares:</p>
+
+<ul>
+  <li>Your <strong>IP address</strong></li>
+  <li><strong>How you interact with advertisements</strong> — app launches, taps,
+      video views</li>
+  <li><strong>Diagnostic information</strong> — app launch time, hang rate,
+      energy usage</li>
+  <li><strong>Device and account identifiers</strong> — your Android advertising
+      ID, app set ID, and identifiers related to a signed-in Google account where
+      applicable</li>
+</ul>
+
+<p>Google uses this for advertising, analytics and fraud prevention. It is
+encrypted while being sent.</p>
+
+<p><strong>This is the only information that leaves your phone because of this
+app, and none of it is your business data.</strong> Google's advertising software
+has no access to your sales, expenses, prices or restaurant name.</p>
+
+<p>You can limit this:</p>
+<ul>
+  <li><strong>Reset or delete your advertising ID</strong> in Android Settings →
+      Privacy → Ads.</li>
+  <li><strong>Choose non-personalised advertisements</strong> where the law where
+      you live requires us to ask. In those regions the app shows a consent choice
+      before any personalised advertisement, and you can change your answer later
+      from the privacy options in the app. In regions with no such requirement —
+      India included — no consent screen appears, and the limits above still
+      apply.</li>
+  <li><strong>Remove advertisements entirely</strong> by subscribing to
+      Restaurant Pro.</li>
+</ul>
+
+<p>Google's own policy explains what they do with it:
+<a href="https://policies.google.com/technologies/ads">policies.google.com/technologies/ads</a></p>
+
+<h2>Subscriptions (Google Play Billing)</h2>
+
+<p>Restaurant Pro is sold through Google Play. <strong>Google handles the payment
+entirely.</strong> We never see your card number, bank details, billing address or
+any other payment information — only whether your subscription is currently
+active, which Google tells the app so it can unlock the paid features.</p>
+
+<p>Manage or cancel the subscription in the Google Play Store app. Google's
+payments policy applies:
+<a href="https://policies.google.com/privacy">policies.google.com/privacy</a></p>
+
+<h2>Backups and exports</h2>
+
+<p>The app can write a backup file, or export your data as a spreadsheet or a PDF.
+<strong>You choose where these go</strong> — your phone's storage, Google Drive,
+an email, or anywhere else your phone offers.</p>
+
+<p>Two things worth knowing:</p>
+<ul>
+  <li>A backup file contains <strong>all</strong> of your business data, and it is
+      <strong>not encrypted</strong>. Treat it like a paper ledger: anyone who has
+      the file can read it.</li>
+  <li>Once you share it, <strong>what happens to it is up to you and whoever you
+      shared it with.</strong> We have no involvement and no ability to retrieve
+      or delete it.</li>
+</ul>
+
+<p>The app deletes its own temporary copies after a backup or export finishes.</p>
+
+<h2>Permissions the app asks for</h2>
+
+<ul>
+  <li><strong>Notifications</strong> — for the daily reminders, if you turn them
+      on. Reminder text never contains any figures, so a notification on your lock
+      screen reveals nothing about your takings.</li>
+  <li>Nothing else is asked of you. The app requests no contacts, no location, no
+      camera, no microphone, and no access to files outside the ones you
+      explicitly pick.</li>
+</ul>
+
+<p>Google Play also lists some permissions that Android grants automatically and
+never prompts you about — internet access, the advertising identifier, in-app
+billing, fingerprint unlock, and a few used by Google's own libraries to schedule
+background work. They are required by those components, and none of them gives
+anyone access to your business records.</p>
+
+<h2>Children</h2>
+
+<p>The app is a business tool for adults and is not directed at children.</p>
+
+<h2>What we do NOT do</h2>
+
+<ul>
+  <li>We do not have a server that stores your business data.</li>
+  <li>We do not have user accounts, and you do not give us an email address.</li>
+  <li>We do not sell or share your business data with anyone, because we never
+      receive it.</li>
+  <li>We do not track you across other apps or websites.</li>
+</ul>
+
+<h2>A note on security, stated plainly</h2>
+
+<p>The optional app lock (PIN or fingerprint) controls <strong>access to the
+app</strong>. It does <strong>not</strong> encrypt your records. It will stop
+somebody who picks up your unlocked phone from browsing your sales. It will not
+stop somebody determined who has your phone and the right tools.</p>
+
+<p>We would rather say that clearly than describe the app as "secure" and let you
+assume more than is true.</p>
+
+<h2>Changes</h2>
+
+<p>If this policy changes, the date at the top changes and the new version appears
+at this address. Material changes will also be mentioned in the app's release
+notes.</p>
+
+<h2>Contact</h2>
+
+<p>Questions about this policy, or about what the app does with your data:</p>
+
+<p class="contact"><a href="mailto:ignitexstudios19@gmail.com">ignitexstudios19@gmail.com</a></p>
+
+<p>This address is monitored. It is the only way a user of this app can reach
+anybody about it.</p>
+
+<footer>
+  <p>Restaurant Sales &amp; Expenses — privacy policy, last updated 26 October 2026.</p>
+</footer>
+
+</div>
+</body>
+</html>
